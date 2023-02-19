@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+
+
+<!-- Mirrored from siliconmadeacademy.com/siliconmade-ileri-full-stack.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Feb 2023 12:24:56 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="../cdn.jsdelivr.net/npm/bootstrap%405.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Duru+Sans&amp;subset=latin,latin%2Clatin-ext&amp;display=swap"
+		rel="stylesheet">
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-54TTCW6');</script>
+	<!-- End Google Tag Manager -->
+
+	<link rel="stylesheet" href="plugins/lazyframe.css" />
+	<link rel="stylesheet" href="css/theme.minbf0c.css?d=091122" />
+	<link rel="stylesheet" href="css/page.min.css" />
+
+	<title>Siliconmade Academy - Eğitim Programı-Full Stack II</title>
+	<!-- Meta Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'../connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '288507379361844');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=288507379361844&amp;ev=PageView&amp;noscript=1" /></noscript>
+	<!-- End Meta Pixel Code -->
+</head>
+<html>
+
+<body class="egitimProg">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54TTCW6" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!--  data-bs-spy="scroll" data-bs-target="#navbar-category" -->
+	<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+			<symbol id="i-linkedin" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+				class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 448 512">
+				<path fill="currentColor"
+					d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+				</path>
+			</symbol>
+			<symbol id="i-inst" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 448 512">
+				<path fill="currentColor"
+					d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+			</symbol>
+			<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+			<symbol id="i-fb" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 320 512">
+				<path fill="currentColor"
+					d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+			</symbol>
+			<symbol id="i-map" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 576 512">
+				<path fill="currentColor"
+					d="M384 476.1L192 421.2V35.93L384 90.79V476.1zM416 88.37L543.1 37.53C558.9 31.23 576 42.84 576 59.82V394.6C576 404.4 570 413.2 560.9 416.9L416 474.8V88.37zM15.09 95.13L160 37.17V423.6L32.91 474.5C17.15 480.8 0 469.2 0 452.2V117.4C0 107.6 5.975 98.78 15.09 95.13V95.13z" />
+			</symbol>
+			<symbol id="i-envelope" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 512 512">
+				<path fill="currentColor"
+					d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+			</symbol>
+			<symbol id="i-phone" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 512 512">
+				<path fill="currentColor"
+					d="M18.92 351.2l108.5-46.52c12.78-5.531 27.77-1.801 36.45 8.98l44.09 53.82c69.25-34 125.5-90.31 159.5-159.5l-53.81-44.04c-10.75-8.781-14.41-23.69-8.974-36.47l46.51-108.5c6.094-13.91 21.1-21.52 35.79-18.11l100.8 23.25c14.25 3.25 24.22 15.8 24.22 30.46c0 252.3-205.2 457.5-457.5 457.5c-14.67 0-27.18-9.968-30.45-24.22l-23.25-100.8C-2.571 372.4 5.018 357.2 18.92 351.2z" />
+			</symbol>
+			<symbol id="i-q" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 512 512">
+				<path fill="currentColor"
+					d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 400c-18 0-32-14-32-32s13.1-32 32-32c17.1 0 32 14 32 32S273.1 400 256 400zM325.1 258L280 286V288c0 13-11 24-24 24S232 301 232 288V272c0-8 4-16 12-21l57-34C308 213 312 206 312 198C312 186 301.1 176 289.1 176h-51.1C225.1 176 216 186 216 198c0 13-11 24-24 24s-24-11-24-24C168 159 199 128 237.1 128h51.1C329 128 360 159 360 198C360 222 347 245 325.1 258z" />
+			</symbol>
+			<symbol id="i-dots" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 128 512">
+				<path fill="currentColor"
+					d="M64 360C94.93 360 120 385.1 120 416C120 446.9 94.93 472 64 472C33.07 472 8 446.9 8 416C8 385.1 33.07 360 64 360zM64 200C94.93 200 120 225.1 120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200zM64 152C33.07 152 8 126.9 8 96C8 65.07 33.07 40 64 40C94.93 40 120 65.07 120 96C120 126.9 94.93 152 64 152z" />
+			</symbol>
+			<symbol id="i-list" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 512 512">
+				<path fill="currentColor"
+					d="M16 96C16 69.49 37.49 48 64 48C90.51 48 112 69.49 112 96C112 122.5 90.51 144 64 144C37.49 144 16 122.5 16 96zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 416C16 389.5 37.49 368 64 368C90.51 368 112 389.5 112 416C112 442.5 90.51 464 64 464C37.49 464 16 442.5 16 416zM112 256C112 282.5 90.51 304 64 304C37.49 304 16 282.5 16 256C16 229.5 37.49 208 64 208C90.51 208 112 229.5 112 256z" />
+			</symbol>
+			<symbol id="i-marker" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 384 512">
+				<path fill="currentColor"
+					d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z" />
+			</symbol>
+			<symbol id="i-youtube" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24">
+				<path fill="currentColor"
+					d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+			</symbol>
+		</defs>
+	</svg>
+
+	<header class="d-flex">
+		<!-- sticky-header -->
+		<div class="container d-flex justify-content-between">
+			<a href="index-2.html" class="logo">
+				<img src="img/logo.png">
+			</a>
+
+			<div class="position-relative nav-container">
+				<nav class="navbar navbar-dark">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#top_nav"
+						aria-controls="top_nav" aria-expanded="false" aria-label="navigation">
+						<span class="navbar-toggler-icon"><i></i></span>
+					</button>
+					<div class="container-fluid nav-wrapper">
+						<div class="collapse navbar-collapse" id="top_nav">
+							<ul class="navbar-nav mb-0 mb-lg-0">
+								<!--me-auto -->
+								<li class="nav-item">
+									<a href="index-2.html" aria-current="page" role="menuitem"
+										class="nav-link">Anasayfa</a>
+								</li>
+								<li class="nav-item">
+									<a href="neden-variz.html" role="menuitem" class="nav-link">Neden Varız?</a>
+								</li>
+								<li class="nav-item">
+									<a href="network.html" role="menuitem" class="nav-link">Siliconmade Network</a>
+								</li>
+								</li>
+								<li class="nav-item">
+									<a href="egitim-yolculugu.html" role="menuitem" class="nav-link">Akademi Eğitim
+										Yolculuğu</a>
+								</li>
+								</li>
+								<li class="nav-item">
+									<a href="diger-egitimler.html" role="menuitem" class="nav-link">Diğer Eğitimler</a>
+								</li>
+								</li>
+								<li class="nav-item">
+									<a href="#basvuru-formu" aria-current="page" role="menuitem"
+										class="nav-link goto">Hemen Başvur</a>
+								</li>
+								<li class="nav-item">
+									<a href="faq.html" role="menuitem" class="nav-link">S.S.S.</a>
+								</li>
+								<li class="nav-item">
+									<a href="duyurular.html" role="menuitem" class="nav-link">Duyurular</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section class="w-100 position-relative banner-container page page-content">
+		<picture>
+			<source srcset="img/page_bgr_m.jpg" media="(max-width: 767px)">
+			<!--aspect-ratio: 1110/742;-->
+			<img src="img/page_bgr.jpg"> <!-- aspect-ratio: 1920/742;-->
+		</picture>
+		<div class="d-flex position-absolute w-100 banner-inner">
+			<div class="w-100 text-center banner-content">
+				<h1>3. Aşama İleri Full Stack Yazılım Uzmanlığı</h1>
+				<div class="options-wrapper">
+					<div class="o-item">
+						<div class="o-title">
+							<svg class="" viewBox="0 0 512 512">
+								<use xlink:href="#i-marker" />
+							</svg>
+							<span>Konum</span>
+						</div>
+						<div class="o-info">
+							Online Sınıf <br />
+							(Canlı Eğitmen)
+						</div>
+					</div>
+					<div class="o-item">
+						<div class="o-title">
+							<span>Dersin Süresi</span>
+						</div>
+						<div class="o-info">
+							16 Hafta, 128 Saat
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="ad-container mb-5 bg-corp-orange">
+		İleri seviye web projeleri geliştir.
+	</div>
+
+	<section class="container m-sec">
+		<h2 class="section-title">{ Dersin Amacı }</h2>
+		<p class="mx-2">
+			Teknoloji geliştiricinin, ilgi ve yetenekleri doğrultusunda uzmanlaşmasını sağlayan üst seviye dikey
+			eğitimlerdir. Bu aşamada katılımcılar ilgi alanlarına göre 5 farklı uzmanlığa ayrılırlar. Seçtikleri
+			alanda dünyanın önde gelen şirketleri ile çalışarak global bir vizyon kazanacak ve ileri seviye
+			uzmanlıklarını uygulamalı olarak geliştirebilecekleri, güncel iş dünyası dinamiklerine entegre, kapsamlı bir
+			eğitimden geçecekler. Seçilen uzmanlık alanı tamamlandığında başarılı mezunlar, kazandıkları ileri seviye
+			web programlama bilgisiyle kurumlarda alan uzmanı olarak işe başlayacak yetkinliğe sahip olacaklar.
+		</p>
+	</section>
+
+	<!-- <section class="container m-sec">
+		<h2 class="section-title">{ Kimler Katılabilir }</h2>
+		<div class="block-light darker-block-light">
+			<p class="mx-2 " style="font-size:1.5rem; color: rgba(10,12,25,0.9);">Platinummade Eğitimine Katılma
+				Şartları </p>
+			<p class="mx-2">
+				Goldenmade olan öğrenciler, yani 1. Aşamadaki görevleri yerine getirerek yeterli puanı toplayan
+				öğrenciler 2. Aşama Platinummade eğitimine devam edebilirler.</p>
+		</div>
+	</section> -->
+
+	<section class="container m-sec">
+		<h2 class="section-title">{ Eğitim İçeriği }</h2>
+		<!-- HAFTA 1 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 1</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h1">
+				<div class="accordion-item syllabus ">
+					<h2 class="accordion-header" id="flush-head-h1-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h1-d1" aria-expanded="false" aria-controls="flush-coll-h1-d1">
+							<span>What have we learned before?</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h1-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h1-s1"
+						data-bs-parent="#acc-flush-h1">
+						<div class="accordion-body">
+							<ul>
+								<li>HTML, CSS, JS, Git ÖZET</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h1-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h1-d2" aria-expanded="false" aria-controls="flush-coll-h1-d2">
+							<span>What have we learned before?</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h1-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h1-s2"
+						data-bs-parent="#acc-flush-h1">
+						<div class="accordion-body">
+							<ul>
+								<li>ASP.NET ÖZET</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 2 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 2</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h2">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h2-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h2-d1" aria-expanded="false" aria-controls="flush-coll-h2-d1">
+							<span>Software Architectures</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h2-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h2-s1"
+						data-bs-parent="#acc-flush-h2">
+						<div class="accordion-body">
+							<ul>
+								<li>N-Layer Monolith Architecture</li>
+								<li>Service-Oriented Architecture (SOA)</li>
+								<li>Clean Architecture</li>
+								<li>Microservice Architecture</li>
+								<li>Domain Driven Design (DDD)</li>
+								<li>Test Driven Design (TDD)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h2-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h2-d2" aria-expanded="false" aria-controls="flush-coll-h2-d2">
+							<span>Software Architectures</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h2-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h2-s2"
+						data-bs-parent="#acc-flush-h2">
+						<div class="accordion-body">
+							<ul>
+								<li>SOLID Prensipleri</li>
+								<li>Design Patterns</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 3 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 3</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h3">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h3-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h3-d1" aria-expanded="false" aria-controls="flush-coll-h3-d1">
+							<span>Database Architectures</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h3-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h3-s1"
+						data-bs-parent="#acc-flush-h3">
+						<div class="accordion-body">
+							<ul>
+								<li>Relational Database</li>
+								<li>NoSQL Database</li>
+								<li>Key-Value Database</li>
+								<li>Graph Database</li>
+								<li>InMemory Database</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h3-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h3-d2" aria-expanded="false" aria-controls="flush-coll-h3-d2">
+							<span>SQL Veritabanı Geliştirme ve T-SQL</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h3-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h3-s2"
+						data-bs-parent="#acc-flush-h3">
+						<div class="accordion-body">
+							<ul>
+								<li>Veritabanı Geliştirmeye Giriş</li>
+								<li>İlişkiler Normalizasyon ve Normal Formlar</li>
+								<li>Veritabanı Yapısını Değiştirmek İçin DDL Kullanma</li>
+								<li>T-SQL Sorgulamaya Giriş</li>
+								<li>Tabloların Tasarlanması ve Uygulanması</li>
+								<li>SELECT Sorguları Yazma</li>
+								<li>Birden Fazla Tabloda Sorgu Oluşturma</li>
+								<li>Verileri Sıralama ve Filtreleme</li>
+								<li>SQL Server Veri Tipleriyle Çalışma</li>
+								<li>Verileri Değiştirmek İçin DML Kullanma</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 4 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 4</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h4">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h4-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h4-d1" aria-expanded="false" aria-controls="flush-coll-h4-d1">
+							<span>SQL Veritabanı Geliştirme ve T-SQL</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h4-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h4-s1"
+						data-bs-parent="#acc-flush-h4">
+						<div class="accordion-body">
+							<ul>
+								<li>Dahili Fonksiyonları Kullanma</li>
+								<li>Verilen Gruplandırılması ve Toplanması</li>
+								<li>Alt Sorguları Kullanma</li>
+								<li>Tablo İfadelerini Kullanma</li>
+								<li>Set Operatörlerini Kullanma</li>
+								<li>Pencere Sıralaması, Ofset ve Toplam Fonksiyonlarını Kullanma</li>
+								<li>Kümeleri Pivotlama ve Gruplama</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h4-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h4-d2" aria-expanded="false" aria-controls="flush-coll-h4-d2">
+							<span>SQL Veritabanı Geliştirme ve T-SQL</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h4-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h4-s2"
+						data-bs-parent="#acc-flush-h4">
+						<div class="accordion-body">
+							<ul>
+								<li>Görünümleri Tasarlama ve Uygulama</li>
+								<li>İndeksleri Tasarlama ve Uygulama</li>
+								<li>Saklı Yordamları Tasarlama ve Uygulama</li>
+								<li>Kullanıcı Tanımları Fonksiyonları Tasarlama ve Uygulama</li>
+								<li>Tetikleyiciler Aracığıyla Veri İşlemeye Tepki Verme</li>
+								<li>Saklı Yordamları Çalıştırma</li>
+								<li>T-SQL ile Programlama</li>
+								<li>Hata İşlemeyi Uyarlama</li>
+								<li>İşlemleri Uygulama</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 5 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 5</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h5">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h5-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h5-d1" aria-expanded="false" aria-controls="flush-coll-h5-d1">
+							<span>Monolith Service Oriented Architecture Project (SOA)</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h5-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h5-s1"
+						data-bs-parent="#acc-flush-h5">
+						<div class="accordion-body">
+							<ul>
+								<li>Application, Domain, Infrastructure, User Interface Katmanları</li>
+								<li>Interface, Abstract Sınıf Kullanımları</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h5-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h5-d2" aria-expanded="false" aria-controls="flush-coll-h5-d2">
+							<span>Domain and Database Infrastructure Layer</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h5-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h5-s2"
+						data-bs-parent="#acc-flush-h5">
+						<div class="accordion-body">
+							<ul>
+								<li>Domain Layer ve Entity Model</li>
+
+								<li>O/RM’lere (Object Relational Mapper) Giriş</li>
+								<li>Dapper ile Veritabanı Kullanımı</li>
+								<li>Dapper ile CRUD İşlemleri</li>
+								<li>SQL Injection ve Korunma Teknikleri</li>
+
+								<li>Entity Framework Core'a Giriş</li>
+								<li>EF Database First</li>
+								<li>EF Code First</li>
+
+								<li>Entity Framework Code First Projesi Oluşturma</li>
+								<li>Ürün CRUD İşlemler</li>
+								<li>Kategori CRUD İşlemler</li>
+								<li>Tablolar Arasında İlişki Kurma</li>
+								<li>Migration ile İlişkisel Veritabanı Oluşturma</li>
+
+								<li>Scaffolding DbContext</li>
+								<li>Entity Configuration</li>
+								<li>Seeding</li>
+
+								<li>Repository Pattern, Generic Repository</li>
+								<li>Unit of Work Pattern Kullanımı</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 6 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 6</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h6">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h6-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h6-d1" aria-expanded="false" aria-controls="flush-coll-h6-d1">
+							<span>Application Business Layer</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h6-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h6-s1"
+						data-bs-parent="#acc-flush-h6">
+						<div class="accordion-body">
+							<ul>
+								<li>App Service Kullanımı</li>
+								<li>Data Transfer Objects (DTO)</li>
+								<li>AutoMapper ile Mapping İşlemi</li>
+								<li>ServiceResponse Dto</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h6-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h6-d2" aria-expanded="false" aria-controls="flush-coll-h6-d2">
+							<span>User Interface Layer</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h6-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h6-s2"
+						data-bs-parent="#acc-flush-h6">
+						<div class="accordion-body">
+							<ul>
+								<li>ASP.NET MVC Projesi Oluşturma</li>
+								<li>MVC içerisinde Service Kullanımı</li>
+								<li>ServiceExtensions ile Ortak servislerin Kullanımı</li>
+								<li>Dependency Injection (ASP.NET, AutoFac)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 7 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 7</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h7">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h7-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h7-d1" aria-expanded="false" aria-controls="flush-coll-h7-d1">
+							<span>Authentication</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h7-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h7-s1"
+						data-bs-parent="#acc-flush-h7">
+						<div class="accordion-body">
+							<ul>
+								<li>Cookie Authentication</li>
+								<li>Authorization</li>
+								<li>Authentication</li>
+								<li>Claim, Identity, Principle</li>
+								<li>AspNet Core ile Identity</li>
+								<li>Register</li>
+								<li>Login</li>
+								<li>Hata Mesajları</li>
+								<li>Identity Konfigürasyonları</li>
+								<li>Maille Doğrulama</li>
+								<li>Sms Doğrulaması</li>
+								<li>2 Adımlı Doğrulama</li>
+								<li>Google ile Giriş İşlemi</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h7-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h7-d2" aria-expanded="false" aria-controls="flush-coll-h7-d2">
+							<span>Validation Extensions</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h7-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h7-s2"
+						data-bs-parent="#acc-flush-h7">
+						<div class="accordion-body">
+							<ul>
+								<li>FluentValidation ile Validation İşlemleri</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 8 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 8</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h8">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h8-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h8-d1" aria-expanded="false" aria-controls="flush-coll-h8-d1">
+							<span>Error Handling</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h8-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h8-s1"
+						data-bs-parent="#acc-flush-h8">
+						<div class="accordion-body">
+							<ul>
+								<li>Global Error Handling</li>
+								<li>Service Tarafındaki Hataları Yakalamak</li>
+								<li>Validation Hatalarını Yakalamak</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h8-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h8-d2" aria-expanded="false" aria-controls="flush-coll-h8-d2">
+							<span>Aspect Oriented Programming</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h8-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h8-s2"
+						data-bs-parent="#acc-flush-h8">
+						<div class="accordion-body">
+							<ul>
+								<li>Aspect Nedir?</li>
+								<li>Aspect Tabanlı Programlama Kütüphaneleri</li>
+								<li>Örnek Aspect Kullanımları: Validation, Cache, Transaction, Authentication, Log</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 9 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 9</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h9">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h9-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h9-d1" aria-expanded="false" aria-controls="flush-coll-h9-d1">
+							<span>Web API</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h9-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h9-s1"
+						data-bs-parent="#acc-flush-h9">
+						<div class="accordion-body">
+							<ul>
+								<li>Web API Nedir? Nerelerde Kullanılır? Apilerle çalışmak</li>
+								<li>Restful</li>
+								<li>Postman</li>
+								<li>Swagger</li>
+								<li>Web Servis Çeşitleri</li>
+								<li>Web API Metotları</li>
+								<li>Asp.Net Web API CRUD</li>
+								<li>Asp.Net Web API Veri Listeleme</li>
+								<li>Asp.Net Web API Veri Ekle, Güncelle, Sil Metotları ve Postman Programı</li>
+								<li>Postman İle Veri Ekleme, Güncelleme, Silme</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h9-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h9-d2" aria-expanded="false" aria-controls="flush-coll-h9-d2">
+							<span>Web API Authentication</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h9-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h9-s2"
+						data-bs-parent="#acc-flush-h9">
+						<div class="accordion-body">
+							<ul>
+								<li>JWT Authentication</li>
+								<li>Role Based Authorization</li>
+								<li>Permission Based Authorization</li>
+								<li>Postman ile API İşlemleri</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 10 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 10</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h10">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h10-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h10-d1" aria-expanded="false" aria-controls="flush-coll-h10-d1">
+							<span>Vue.js</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h10-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h10-s1"
+						data-bs-parent="#acc-flush-h10">
+						<div class="accordion-body">
+							<ul>
+								<li>Vue.js Nedir?</li>
+								<ul>
+									<li>Neden Vue.js Kullanmalıyız?</li>
+									<li>Vue, React, Angular Kıyaslama</li>
+									<li>İlk Vue.js Uygulaması</li>
+									<li>Vue.js proje</li>
+								</ul>
+								<li>VueJS Instance ile ilgili bazı temel bilgiler</li>
+								<ul>
+									<li>Birden fazla Vue Instance ile çalışmak</li>
+									<li>Vue Instance'a dışarıdan ulaşmak</li>
+									<li>VueJS Data ve Method Verilerini Nasıl Yönetir?</li>
+									<li>$el ve $data objelerine daha yakından bakalım</li>
+									<li>Template içinde $refs kullanımı</li>
+									<li>Vue API Hakkında</li>
+									<li>Template Mount Etme İşlemi</li>
+									<li>Component Kullanımı</li>
+									<li>String Template’ın kullanımındaki Limitler</li>
+									<li>VueJS DOM’u nasıl Günceller? VueJS ile DOM Etkileşimi</li>
+									<li>VueJS Instance için Yaşam Döngüsü (LifeCycle)</li>
+									<li>Pratikte LifeCycle</li>
+								</ul>
+
+								<li>VueJS Template yapısını kavrayalım</li>
+								<ul>
+									<li>VueJS Template Syntax ve Vue instance birlikte nasıl çalışır?</li>
+									<li>Vue instance içerisindeki data property bilgilerine ulaşmak</li>
+									<li>Attribute Bind İşlemi</li>
+									<li>Directive Kullanımı</li>
+									<li>v-once ile re-render işlemini engellemek</li>
+									<li>HTML kodlarını Vue.js üzerinden ekrana basmak</li>
+								</ul>
+
+								<li>VueJS ile Event Dinlemek</li>
+								<ul>
+									<li>Event Objesinden Event verisini almak</li>
+									<li>Event içerisinde argüman göndermek</li>
+									<li>Event Modifier</li>
+									<li>Klavye Event'leri</li>
+								</ul>
+
+								<li>Template içerisinde JavaScript Kodu yazmak</li>
+								<li>Two-way Data Binding (İki Yönlü Veri İletişimi)</li>
+								<li>Computed Properties ile Değişikliklere Karşılık Vermek!</li>
+								<li>Computed Properties'e alternatif Watch!</li>
+								<li>Kısaltmalarla zaman kazanalım</li>
+
+								<li>CSS Classlarıyla Dinamik Stil İşlemleri | Temelleri</li>
+								<li>CSS Classlarıyla Dinamik Stil İşlemleri | Object Kullanımı</li>
+								<li>CSS Classlarıyla Dinamik Stil İşlemleri | Name Kullanımı</li>
+								<li>CSS Classları olmadan dinamik olarak Stil işlemleri</li>
+								<li>Elementleri Array Syntax ile Stillendirme İşlemi</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h10-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h10-d2" aria-expanded="false" aria-controls="flush-coll-h10-d2">
+							<span>Vue.js</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h10-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h10-s2"
+						data-bs-parent="#acc-flush-h10">
+						<div class="accordion-body">
+							<ul>
+								<li>v-if ile koşul eklemek (Template)</li>
+								<li>v-show kullanımı (v-if alternatifi)</li>
+								<li>v-if ile v-show arasındaki fark</li>
+								<li>v-for ile listeleri render etmek</li>
+								<li>Aktif index numarasını almak</li>
+								<li>v-for ile aynı seviyedeki elementleri Template ile döndürmek</li>
+								<li>v-for ile object verilerini döndürmek</li>
+								<li>v-for ile belirli sayıda döngü kurmak</li>
+								<li>v-for kullanırken elementlerin izini sürmek (v-bind:key)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 11 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 11</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h11">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h11-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h11-d1" aria-expanded="false" aria-controls="flush-coll-h11-d1">
+							<span>Vue.js</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h11-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h11-s1"
+						data-bs-parent="#acc-flush-h11">
+						<div class="accordion-body">
+							<ul>
+								<li>Neden Development Server’a ihtiyacımız var?</li>
+								<ul>
+									<li>Development Workflow Ne demek?</li>
+									<li>Proje Oluştururken Vue CLI Kullanımı</li>
+									<li>Vue CLI kurulumu ve Yeni Proje Oluşturmak</li>
+									<li>Webpack Template Klasör Yapısı</li>
+									<li>.vue dosyalarının incelemesi</li>
+									<li>Vue Dosyalarının içindeki Object Nedir?</li>
+									<li>Production için Uygulamayı Derlemek</li>
+								</ul>
+								<li>Component yapısına giriş</li>
+								<ul>
+									<li>Component içinde Data Metodu ile Veri Depolama</li>
+									<li>Component’leri Local ve Global olarak Kayıt Etmek</li>
+									<li>App.vue dosyası içindeki Root Component</li>
+									<li>Component Oluşturmak</li>
+									<li>Component Kullanımı</li>
+									<li>Pratik Zamanı - Component</li>
+									<li>Klasör yapısını daha iyi hale getirelim!</li>
+									<li>Component Etiketlerini isimlendirme işlemi (Seçiciler)</li>
+									<li>Component Style Scope İşlemi</li>
+								</ul>
+								<li>İletişim Problemleri</li>
+								<ul>
+									<li>Parent => Child Arası iletişim (Props)</li>
+									<li>Props verilerini isimlendirme hakkında (Case Sensitive)</li>
+									<li>Child Component içinde props kullanımı (Method içinde)</li>
+									<li>Props Validation</li>
+									<li>Child => Parent Arası iletişim (Custom Events)</li>
+									<li>Component İletişimi</li>
+									<li>Sibling Child arası iletişim Child1 => Parent => Child2</li>
+									<li>Event Bus Kullanımı</li>
+									<li>Event Bus ile İletişimi Birleştirmek</li>
+								</ul>
+
+								<li>İçerik Göndermek | İdeal Olmayan</li>
+								<li>Slot ile İçerik Göndermek</li>
+								<li>Named Slots ile İçerikleri Ayrıştırmak</li>
+								<li>Default Slot ve Slot Defaults</li>
+								<li>Slot hakkında kısa bir özet</li>
+								<li>Birden fazla component arasında dinamik olarak switch işlemi</li>
+								<li>Dinamik component’lerin davranışını anlayalım!</li>
+								<li>Dinamik component’leri Canlı tutmak (keep-alive)</li>
+								<li>Dinamik Component'lerde LifeCycle Hook</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h11-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h11-d2" aria-expanded="false" aria-controls="flush-coll-h11-d2">
+							<span>Vue.js</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h11-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h11-s2"
+						data-bs-parent="#acc-flush-h11">
+						<div class="accordion-body">
+							<ul>
+								<li>Routing</li>
+								<li>Vuetify Compenent Library</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 12 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 12</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h12">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h12-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h12-d1" aria-expanded="false" aria-controls="flush-coll-h12-d1">
+							<span>Vue.js</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h12-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h12-s1"
+						data-bs-parent="#acc-flush-h12">
+						<div class="accordion-body">
+							<ul>
+								<li>Harici Veriler ve API Kaynakları ile Çalışma</li>
+								<li>API Request</li>
+								<li>Axios</li>
+								<li>JWT Authentication</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h12-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h12-d2" aria-expanded="false" aria-controls="flush-coll-h12-d2">
+							<span>Logging</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h12-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h12-s2"
+						data-bs-parent="#acc-flush-h12">
+						<div class="accordion-body">
+							<ul>
+								<li>Server Logs</li>
+								<li>Request Logs</li>
+								<li>Audit Logs</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 13 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 13</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h13">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h13-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h13-d1" aria-expanded="false" aria-controls="flush-coll-h13-d1">
+							<span>Elastic Search</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h13-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h13-s1"
+						data-bs-parent="#acc-flush-h13">
+						<div class="accordion-body">
+							<ul>
+								<li>Elastic Search Nedir?</li>
+								<li>Elastic Search Nasıl Kullanılır?</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h13-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h13-d2" aria-expanded="false" aria-controls="flush-coll-h13-d2">
+							<span>RabbitMQ</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h13-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h13-s2"
+						data-bs-parent="#acc-flush-h13">
+						<div class="accordion-body">
+							<ul>
+								<li>Message Queue Nedir?</li>
+								<li>RabbitMQ Nedir ve Nasıl Çalışır?</li>
+								<li>RabbitMQ Kurulumu</li>
+								<li>Asenkron Programlama</li>
+								<li>RabbitMQ'yu niçin kullanmalıyız?</li>
+								<li>Work Queue</li>
+								<li>Fanout Exchange</li>
+								<li>Direct Exchange</li>
+								<li>Topic Exchange</li>
+								<li>Header Exchange</li>
+								<li>Mesajları Kalıcı Hale Getirmek</li>
+								<li>Karmaşık Tipleri Mesaj Olarak İletmek</li>
+								<li>RabbitMQCLientService Sınıfının Oluşturulması</li>
+								<li>RabbitMQPublisher Sınıfının Oluşturulması</li>
+								<li>WorkerService Oluşturulması</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 14 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 14</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h14">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h14-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h14-d1" aria-expanded="false" aria-controls="flush-coll-h14-d1">
+							<span>MongoDb</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h14-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h14-s1"
+						data-bs-parent="#acc-flush-h14">
+						<div class="accordion-body">
+							<ul>
+								<li>MongoDB Nedir?</li>
+								<li>MongoDB’yi Kurulumu</li>
+								<li>MongoDB Nuget Paketini Yapılandırma</li>
+								<li>Mongo İstemcisini Ayarlama</li>
+								<li>MongoDB CRUD İşlemleri</li>
+								<li>MongoDB ile Rest Api’leri Çalıştırma</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h14-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h14-d2" aria-expanded="false" aria-controls="flush-coll-h14-d2">
+							<span>Testing</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h14-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h14-s2"
+						data-bs-parent="#acc-flush-h14">
+						<div class="accordion-body">
+							<ul>
+								<li>Unit Test Nedir?</li>
+								<li>Unit Test Framework'leri nelerdir?</li>
+								<li>xUnit packages(paketler) nelerdir?</li>
+								<li>Unit Test proje oluşturma</li>
+								<li>Birim Testleri Yazma</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 15 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 15</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h15">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h15-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h15-d1" aria-expanded="false" aria-controls="flush-coll-h15-d1">
+							<span>Deployment</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h15-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h15-s1"
+						data-bs-parent="#acc-flush-h15">
+						<div class="accordion-body">
+							<ul>
+								<li>Github Üzerinde Kod Barındırma</li>
+								<li>Azure CI/CD İşlemleri</li>
+								<li>Farklı Deploy Ortamlarını Ayarlama</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h15-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h15-d2" aria-expanded="false" aria-controls="flush-coll-h15-d2">
+							<span>Deployment</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h15-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h15-s2"
+						data-bs-parent="#acc-flush-h15">
+						<div class="accordion-body">
+							<ul>
+								<li>Docker ile Container Mimarisi</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- HAFTA 16 -->
+		<div class="block-light d-flex flex-column mx-5 shadow px-3 pt-2">
+			<div class="row syllabus-header mb-2">
+				<div class="col-sm-3 mt-3">
+					<span><b>Hafta 16</b> </span>
+				</div>
+			</div>
+			<hr class="mt-1 mb-4">
+			<div class="accordion accordion-flush shadow mb-2" id="acc-flush-h16">
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h16-s1">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h16-d1" aria-expanded="false" aria-controls="flush-coll-h16-d1">
+							<span>Proje</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h16-d1" class="accordion-collapse collapse" aria-labelledby="flush-head-h16-s1"
+						data-bs-parent="#acc-flush-h16">
+						<div class="accordion-body">
+							<ul>
+								<li>Örnek proje geliştirme</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item syllabus">
+					<h2 class="accordion-header" id="flush-head-h16-s2">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#flush-coll-h16-d2" aria-expanded="false" aria-controls="flush-coll-h16-d2">
+							<span>Proje</span>
+						</button>
+					</h2>
+					<div id="flush-coll-h16-d2" class="accordion-collapse collapse" aria-labelledby="flush-head-h16-s2"
+						data-bs-parent="#acc-flush-h16">
+						<div class="accordion-body">
+							<ul>
+								<li>Örnek proje geliştirme</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="container mt-4" id="basvuru-formu">
+		<h2 class="section-title">{ Başvuru Formu}</h2>
+		<div class="lazyframe" data-initinview="true" data-customvendor="formfacade"
+			data-src="https://formfacade.com/headless/109462437982674046818/home/form/1FAIpQLScbs_XSMQLBpWJZ727QuChx-x8-7RtzTM_wQM6AvE6RYAXa5w"
+			width="100%" style="height:565px; overflow-y:hidden;"></div>
+	</section>
+
+
+
+	<footer class="container-fluid">
+        <div class="footer-container container">
+            <div>
+                <h4 class="footer-title">Bize Ulaşın</h4>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/Siliconmade-Academy-100311028423130/"><svg class=""
+                                viewBox="0 0 512 512">
+                                <use xlink:href="#i-fb" />
+                            </svg></a></li>
+                    <li><a href="https://www.linkedin.com/company/siliconmadeacademy/"><svg class=""
+                                viewBox="0 0 512 512">
+                                <use xlink:href="#i-linkedin" />
+                            </svg></a></li>
+                    <li><a href="https://www.instagram.com/siliconmadeacademy/"><svg class="" viewBox="0 0 512 512">
+                                <use xlink:href="#i-inst" />
+                            </svg></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCsIgroPOjOFgMjRQd2-qGoA"><svg class=""
+                                viewBox="0 0 512 512">
+                                <use xlink:href="#i-youtube" />
+                            </svg></a></li>
+                </ul>
+
+                <ul class="address">
+                    <li>
+                        <svg class="" viewBox="0 0 512 512">
+                            <use xlink:href="#i-map" />
+                        </svg> Kemankeş Karamustafa Paşa Mah. <br>
+                        Alipaşa Değirmeni Sok. <br>
+                        No:3 34560 Karaköy / İstanbul
+                    </li>
+                    <li><svg class="" viewBox="0 0 512 512">
+                            <use xlink:href="#i-envelope" />
+                        </svg> <a href="mailto:academy@siliconmade.com">academy@siliconmade.com</a></li>
+                    <li><svg class="" viewBox="0 0 512 512">
+                            <use xlink:href="#i-phone" />
+                        </svg> +90 850 272 7454</li>
+                </ul>
+
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title">Gerekli Bağlantılar</h4>
+                <a href="index-2.html" aria-current="page">Anasayfa</a>
+                <a href="neden-variz.html">Neden Varız?</a>
+                <a href="network.html">Siliconmade Network</a>
+                <a href="egitim-yolculugu.html">Akademi Eğitim Yolculuğu</a>
+                <a href="diger-egitimler.html">Diğer Eğitimler</a>
+                <a href="index-2.html#basvuru-formu" aria-current="page" class="goto-form">Hemen Başvur</a>
+                <a href="faq.html">S.S.S.</a>
+                <a href="duyurular.html">Duyurular</a>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title">Kaynaklar</h4>
+                <a href="mesafeli-satis-sozlesmesi.html" aria-current="page" target="_blank">Mesafeli Satış Sözleşmesi</a>
+                <a href="on-bilgilendirme-formu.html" target="_blank">	
+                    Ön Bilgilendirme Formu</a>
+                <a href="kvkk.html" target="_blank">	
+                    Kişisel Verilerin Korunması Kanunu (KVKK)</a>
+                <a href="gizlilik-ve-cerez-politikasi.html" target="_blank">	
+                    Gizlilik ve Çerez Politikası</a>
+                <a href="sirket-bilgileri.html" target="_blank">	
+                        Şirket Bilgileri</a><br><br>
+                        <div>
+                            <br>
+                            <a href="https://etbis.eticaret.gov.tr/sitedogrulama/2243076164743475" target="_blank" rel="noopener">
+                                <img class="lazyload c-code" src="img/c.png" style="aspect-ratio: 13/15;">
+                            </a>
+                            <br>
+                            <img class="col-12 col-sm-12 col-md-12 col-lg-12 pay-methods" src="img/iyzico-logo.png" >
+                        </div>
+            </div>
+            
+        </div>
+    </footer>
+	<div class="container-fluid copyright-text text-center">
+		<div>© Siliconmade - 2020. All rights reserved.</div>
+	</div>
+	<div id="whatsappIcon"><a
+			href="https://wa.me/905447454266?text=Merhaba,%20Siliconmade%20Academy%20E%C4%9Fitim%20Program%C4%B1n%C4%B1%20web%20sitenizden%20inceledim.%20Detayl%C4%B1%20bilgi%20almak%20istiyorum."><img
+				src="img/whatsapp.png"></a></div>
+	<script src="../cdn.jsdelivr.net/npm/bootstrap%405.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+	<script src="plugins/lazyframe.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			lazyframe(".lazyframe");
+			let elements = document.querySelectorAll(".lazyframe");
+
+			lazyframe(elements, {
+				debounce: 250,
+				lazyload: true,
+				autoplay: true,
+				//onLoad: (lazyframe) => console.log(lazyframe),
+				//onAppend: (iframe) => console.log(iframe),
+				//onThumbnailLoad: (img) => console.log(img),
+			});
+
+			//navbar
+			const menuToggle = document.querySelector('#top_nav');
+			const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+
+			document.addEventListener('click', (event) => {
+				bsCollapse.hide();
+			});
+
+			//header
+			window.addEventListener('scroll', (ev) => {
+				const h = document.querySelector('header');
+				const sticky = 90;//h.offsetTop;
+
+				if (window.pageYOffset > sticky) {
+					h.classList.add('sticky-header');
+				} else {
+					h.classList.remove('sticky-header');
+				}
+			})
+
+			/* smooth anchor scrolling */
+			gotoHash = (hash) => {
+				if (hash) {
+					const offsetTop = document.querySelector(hash).offsetTop;
+					const w = document.body.clientWidth;
+					const t = w > 767 ? 170 : 120;
+					scroll({
+						top: offsetTop - t,
+						behavior: "smooth"
+					});
+				}
+			};
+			const f_links = document.querySelectorAll('.goto');
+			f_links.forEach(el => {
+				"click touchstart".split(" ").forEach(action => {
+					el.addEventListener(action, (event) => {
+						event.preventDefault();
+						//event.stopPropagation();
+
+						const href = el.getAttribute("href");
+						gotoHash(href);
+					});
+				});
+			})
+
+		});
+	</script>
+</body>
+
+
+<!-- Mirrored from siliconmadeacademy.com/siliconmade-ileri-full-stack.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Feb 2023 12:24:57 GMT -->
+</html>

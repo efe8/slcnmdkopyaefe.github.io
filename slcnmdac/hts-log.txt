@@ -1,0 +1,29 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 19 Feb 2023 15:21:02 at http://siliconmadeacademy.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://siliconmadeacademy.com/ -O1 "C:\Users\hp\Downloads\slcnmdac" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:22:36	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from siliconmadeacademy.com/)
+15:24:56	Error: 	"Not Found" (404) at link siliconmadeacademy.com/plugins/owl.video.play.png (from siliconmadeacademy.com/plugins/owl.carousel.min.css)
+15:24:56	Error: 	"Not Found" (404) at link siliconmadeacademy.com/c (from https://connect.facebook.net/en_US/fbevents.js)
+15:24:56	Error: 	"Not Found" (404) at link siliconmadeacademy.com/b (from https://connect.facebook.net/en_US/fbevents.js)
+15:24:56	Error: 	"Not Found" (404) at link siliconmadeacademy.com/POST (from https://connect.facebook.net/en_US/fbevents.js)
+15:28:29	Error: 	"Cancelled by User" (-1) at link siliconmadeacademy.com/img/mobil-10-aralik-1024x1024.png (from siliconmadeacademy.com/diger-egitimler.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/27-temmuz-burs-sÄ±navi-sonuclari-aciklandi.html (from siliconmadeacademy.com/duyurular.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/bg_lider_yazilim_uzmanligÌi.png (from siliconmadeacademy.com/siliconhead-lider-yazilim-uzmanligi.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/egitmen_EmreYazÄ±cÄ±.jpg (from siliconmadeacademy.com/siliconmade-egitim-programi-yapay-zeka.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/egitmen_AltugIsÄ±gan.jpg (from siliconmadeacademy.com/siliconmade-egitim-programi-oyun-gelistirme.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/egitmen_TolgayHickÄ±ran.jpg (from siliconmadeacademy.com/siliconmade-egitim-programi-oyun-gelistirme.html)
+15:28:57	Error: 	"Cancelled by User" (-1) at link siliconmadeacademy.com/img/bg_mobil_10_Aralik.png (from siliconmadeacademy.com/siliconmade-egitim-programi-mobil.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/bg_siber-guÌvenlik.png (from siliconmadeacademy.com/siliconmade-egitim-programi-siber-guvenlik.html)
+15:28:57	Error: 	"Cancelled by User" (-1) at link siliconmadeacademy.com/img/bg_yapayzeka_8_ekim_1600x445.jpg (from siliconmadeacademy.com/egitim-programi-yapay-zeka.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/bg_unity_1600Ã445.png (from siliconmadeacademy.com/egitim-programi-oyun-gelistirme.html)
+15:28:57	Error: 	"Not Found" (404) at link siliconmadeacademy.com/img/burs-sÄ±nav-duyuru-ekim2022-1600x1406.jpg (from siliconmadeacademy.com/08-ekim-2022-burs-sinavi.html)
+15:28:57	Error: 	"Cancelled by User" (-1) at link siliconmadeacademy.com/img/2021_12_10_burs_01k.png (from siliconmadeacademy.com/25-aralik-2021-burs-sinavi.html)
+15:29:08	Error: 	"Cancelled by User" (-1) at link siliconmadeacademy.com/img/burs_sinavi-1024x1021.png (from siliconmadeacademy.com/8-agustos-burs-sinavi-temel-yazilim-gelistirme-egitimi.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 6 seconds : 150 links scanned, 131 files written (10354253 bytes overall) [14044732 bytes received at 28898 bytes/sec], 483478 bytes transferred using HTTP compression in 7 files, ratio 21%, 5.0 requests per connection
+(18 errors, 0 warnings, 0 messages)
